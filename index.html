@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Lobo Tinder</title>
+	</head>
+	<body>
+		<!-- Title -->
+		<h1 class="title">Lobo Tinder ♡</h1>
+
+		<!-- Card area -->
+		<div id="cardArea" class="card-area"></div>
+
+		<!-- Card template -->
+		<template id="cardTemplate">
+			<div class="card">
+				<img src="" class="user-picture">
+				<h2 class="user-info"></h2>
+				<div class="card-button-wrapper">
+					<button class="card-button card-button-dislike" onclick="dislike()">x</button>
+					<button class="card-button card-button-like" onclick="like()">✓</button>
+				</div>
+			</div>
+		</template>
+
+		<!-- Script -->
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
